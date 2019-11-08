@@ -1,0 +1,86 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Survey Form Project - 20190808
+
+-->
+
+<main id="main">
+  <div class="frame">
+    <div id="title-section">
+      <h1 id="title">Where are you<br> off to next?</h1>
+    </div>
+    <section class="content">
+      <p id="description">We would love to know which islands you plan to explore next, and when you plan to travel. Fill out the form below!</p>
+
+      <form id="survey-form" action="">
+
+        <label id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Enter name..." required>
+        <label id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="Enter email address..." required><br>
+        <label id="number-label">Number of islands you have visited:</label>
+        <input type="number" id="number" min="0" max="100" placeholder="Enter number of islands you have visited"><br>
+        <label id="transport-type">What is your favorite mode of transportation to the islands you visit?</label>
+        <select id="dropdown">
+      <option value="flying">Flying</option>
+      <option value="jet">Private Jet</option>
+      <option value="cruise">Cruise Boat</option>
+      <option value="driving">Driving</option>
+      <option value="sailing ">Private Sailboat</option>
+      <option value="ferry">Ferry Boat</option>
+      
+    </select><br>
+
+        <label id="next-trip">Do you plan on booking another island trip soon?</label><br>
+
+        <input type="radio" name="yes-no-maybe" value="yes"> Yes<br>
+        <input type="radio" name="yes-no-maybe" value="sedan"> No<br>
+        <input type="radio" name="yes-no-maybe" value="SUV"> Not sure<br>
+
+        <label id="schedule">If you answered Yes, when do you plan to travel?</label><br>
+
+        <input type="radio" name="time" value="this-month"> This month<br>
+        <input type="radio" name="time" value="next-six"> Within the next 6 months<br>
+        <input type="radio" name="time" value="next-twelve"> Within the next 12 months<br>
+        <input type="radio" name="time" value="next-2years"> Within the next 2 years<br>
+        <input type="radio" name="time" value="not-sure"> Not sure<br>
+
+        <label id="checkbox-options">What islands do you plan to visit? (check all that apply)</label><br>
+
+        <input type="checkbox" name="island0" value="azores"> Azores<br>
+        <input type="checkbox" name="island1" value="bahamas"> Bahamas<br>
+        <input type="checkbox" name="island2" value="bermuda"> Bermuda Islands<br>
+        <input type="checkbox" name="island3" value="bora-bora"> Bora Bora<br>
+        <input type="checkbox" name="island4" value="canary"> Canary Islands<br>
+        <input type="checkbox" name="island5" value="caribbean"> Caribbean Islands<br>
+        <input type="checkbox" name="island6" value="cook"> Cook Islands<br>
+        <input type="checkbox" name="island7" value="fiji"> Fiji<br>
+        <input type="checkbox" name="island8" value="french-poly"> French Polynesian Islands<br>
+        <input type="checkbox" name="island9" value="galapagos"> Galapagos Islands<br>
+        <input type="checkbox" name="island10" value="greek"> Greek Islands<br>
+        <input type="checkbox" name="island11" value="guam"> Guam<br>
+        <input type="checkbox" name="island12" value="hawaiian"> Hawaiian Islands<br>
+        <input type="checkbox" name="island13" value="indonesian"> Indonesian Islands<br>
+        <input type="checkbox" name="island14" value="madagascar"> Madagascar<br>
+        <input type="checkbox" name="island15" value="maldives"> Maldives<br>
+        <input type="checkbox" name="island16" value="marshall"> Marshall Islands<br>
+        <input type="checkbox" name="island17" value="seychelles"> Seychelles<br>
+        <input type="checkbox" name="island18" value="sri-lanka"> Sri Lanka<br>
+        <input type="checkbox" name="island19" value="tasmania"> Tasmania<br>
+        <input type="checkbox" name="island20" value="vanuatu"> Vanuatu<br>
+        <input type="checkbox" name="island21" value="whitsundays"> Whitsundays<br>
+
+        <label id="specific">Please name the specific island or islands you plan to visit:</label><br>
+        <textarea name="comments" rows="10" cols="30%"></textarea><br>
+
+        <label id="comments">Please add your comments and any other islands you wish to visit:</label><br>
+        <textarea name="comments" rows="10" cols="30%"></textarea><br>
+
+        <input type="submit" id="submit" value="Click to Submit" name="">
+
+      </form>
+    </section>
+  </div>
+</main>

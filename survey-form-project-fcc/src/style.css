@@ -1,0 +1,58 @@
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Signika', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Caveat', cursive;
+*/
+
+body {
+  background: url("https://github.com/mlmal/cv/blob/master/images/tropical_1500.jpg?raw=true")
+    no-repeat left top fixed;
+  font-family: "Josefin Sans", sans-serif;
+  background-size: cover;
+  color: #222;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+textarea {
+  border-radius: 3%;
+}
+
+#description {
+  font-family: 'Caveat', cursive;
+  font-size: 2.5em;
+  line-height: 1.1;
+  padding-bottom: 40px;
+  margin-top: 0;
+}
+
+#title {
+  color: #d16908;
+  font-size: 5.6rem;
+  font-family: "Signika", sans-serif;
+  line-height: 1.1;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 7px #bbb;
+  word-spacing: 10px;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 50px auto 50px;
+  padding: 3rem;
+  background-color: rgba(234, 220, 199, 0.9);
+  box-shadow: 3px 5px 15px #444;
+  line-height: 1.4;
+}
+
+.content {
+  padding: 3rem;
+}

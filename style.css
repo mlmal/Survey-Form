@@ -7,7 +7,7 @@ font-family: 'Caveat', cursive;
 */
 
 body {
-  background: url("https://github.com/mlmal/cv/blob/master/images/tropical_1500.jpg?raw=true")
+  background: url("images/tropical_1500.jpg")
     no-repeat left top fixed;
   font-family: "Josefin Sans", sans-serif;
   background-size: cover;

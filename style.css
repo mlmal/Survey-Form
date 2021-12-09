@@ -7,7 +7,7 @@ font-family: 'Caveat', cursive;
 */
 
 body {
-  background: url("https://github.com/mlmal/cv/blob/7e9163079c325aaa97308ce5c62a8cc5720c1402/images/tropical_1500.jpg")
+  background: url("survey-form-project-fcc/src/tropical_1500.jpg")
     no-repeat left top fixed;
   font-family: "Josefin Sans", sans-serif;
   background-size: cover;
